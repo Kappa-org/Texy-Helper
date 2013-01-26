@@ -1,0 +1,33 @@
+{
+	"name": "kappa/texy-helper",
+	"type":"library",
+        "description": "Extension for texy implementation of a configuration option config files",
+        "keywords": ["framework", "Nette", "Kappa", "Texy", "helpers", "config"],
+        "homepage": "https://github.com/Kappa-org/Texy-Helper",
+        "license": "",
+
+        "authors": [{
+		"name": "Ondřej Záruba",
+                "homepage": "http://zaruba-ondrej.cz/"
+        }],
+
+        "support":{
+                "email":"zarubaondra@gmail.com",
+                "issues":"https://github.com/Kappa-org/Texy-Helper/issues"
+        },
+
+	"require":{
+		"php": ">= 5.3.0",
+		"nette/nette":"dev-master",
+		"kappa/framework":"dev-master",
+		"dg/texy":"dev-master"
+	},
+
+	"config": {
+		"vendor-dir": "libs"
+	},
+
+	"autoload": {
+                "psr-0": {"Kappa": "./"}
+        }
+}
