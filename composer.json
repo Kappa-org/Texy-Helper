@@ -23,8 +23,8 @@
 		"dg/texy":"dev-master"
 	},
 
-	"config": {
-		"vendor-dir": "libs"
+	"require-dev":{
+		"nette/tester":"dev-master"
 	},
 
 	"autoload": {
